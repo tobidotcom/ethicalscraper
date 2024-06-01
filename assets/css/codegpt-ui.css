@@ -1,0 +1,59 @@
+/* CodeGPT Forms */
+#codegpt-code-generation-form,
+#codegpt-code-completion-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+}
+
+#codegpt-code-generation-form label,
+#codegpt-code-completion-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#codegpt-code-description,
+#codegpt-code-fragment,
+#codegpt-code-completion-description {
+    width: 100%;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+#codegpt-code-generation-form button,
+#codegpt-code-completion-form button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Code Result */
+.codegpt-code-result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+}
+
+.codegpt-code-result pre {
+    margin: 0;
+    padding: 10px;
+    background-color: #272822;
+    color: #f8f8f2;
+    overflow-x: auto;
+}
+
+/* Error Message */
+.codegpt-error {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffebe8;
+    border: 1px solid #c00;
+    color: #c00;
+}
